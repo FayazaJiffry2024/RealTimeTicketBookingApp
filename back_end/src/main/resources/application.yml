@@ -1,0 +1,17 @@
+server:
+
+  #address: 192.168.132.96
+    port: 8081
+
+spring:
+  datasource:
+    username: root
+    password: Password@123
+    url: jdbc:mysql://localhost:3306/online_ticketing_db?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      format_sql: true
+
